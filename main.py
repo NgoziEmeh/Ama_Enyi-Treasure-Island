@@ -39,10 +39,18 @@ if turning_at_igbariam == "left":
             print("Game over! You cannot stop here.")
         else:
             print("You have reached Afor Junction.")
-            from_afor = input("Will you like to take left or right?").lower()
+            from_afor = input("Will you like to take left or right?\n").lower()
             if from_afor == "right":
                 print("Approaching Cata's")
-                cata = input("Do you want to stop or continue?").lower()
+                cata = input("Do you want to stop or continue?\n").lower()
+                if cata == "stop":
+                    cata_turn = input("Turn right or left\n").lower()
+                    if cata_turn == "right":
+                        pass
+                    else:
+                        print("Game over! You have been eaten by animal in the forest you entered")
+                else:
+                    print("Game over! Welcome to Ukwulu. You have gone past where you are going.")
             else:
                 print("Game over! You just fell into mmiri ngbanenu")
 
