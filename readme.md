@@ -20,8 +20,8 @@ To succeed in this hunt:
 
 1. You will need small research of Anambra State of Nigeria and its location map.
    
-2. You must not get killed or drawn in water.
+2. You must not get jailed, killed or drowned in water.
 
 3. Make sure you are pure in heart and love all men. (Impurities are not welcomed in Ama Enyi)
 
-4. You must not get any hint from any descendant of 
+4. You must not get any hint from any descendant of Igwilo.
