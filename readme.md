@@ -9,7 +9,8 @@ No matter who you are or where you come from, you cannot hurt another within Ama
 Committing anything against another is considered a sacrilege and the repercussion is 
 usually severe.  
 
-WHERE ARE YOU? YOU ARE LOCATED AT AWKUZU JUNCTION HEADING TO AWKA.
+Start the hunt:
+WHERE ARE YOU RIGHT NOW? YOU ARE LOCATED AT AWKUZU JUNCTION HEADING TO AWKA.
 
 Your mission is to locate the hidden treasures buried in Ama Enyi many centuries ago.
 
