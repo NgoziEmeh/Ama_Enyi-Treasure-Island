@@ -46,7 +46,9 @@ if turning_at_igbariam == "left":
                 if cata == "stop":
                     cata_turn = input("Turn right or left\n").lower()
                     if cata_turn == "right":
-                        print("Congratulations!! You have reached Ama Enyi.There are 8 houses in Ama Enyi and the treasures are buried in just one of them.")
+                        print("Congratulations!! You have reached Ama Enyi.There are 8 houses in Ama Enyi and the treasures are buried in just one of them.To the left of where you are standing,there are houses 1,2,3,4. In front of you,there are house 5 and house 6 behind it,leading to Nwogo river.To your right,there are houses 7 and 8.Hint: The treasure is in a house where no one leaves but guided heavily by unseen gods.")
+                        select_house = input("Select a house to enter. Pick from 1 to 8")
+
                     else:
                         print("Game over! You have been eaten by animal in the forest you entered")
                 else:
