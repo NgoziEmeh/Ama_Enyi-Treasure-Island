@@ -23,7 +23,7 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Awkuzu Juction.")
 print("Your mission is to locate Ama Enyi and get the hidden treasures. Kindly read the readme file for instruction.")
 
-turning_at_igbariam = input("You just reached Awkuzu junction from Nkpor and approaching Igbariam junction.Which way do you want to take? Left or Right:").lower()
+turning_at_igbariam = input("You just reached Awkuzu junction from Nkpor and approaching Igbariam junction.Which way do you want to take? Left or Right:\n").lower()
 if turning_at_igbariam == "left":
     print("Welcome to Igbariam Junction.Going straight leads you to Anambra State University campus at Igbariam but there are several villages in between.Some are walkable distances while some are far")
     transport_type = input("How will you like to continue? Walk,Vehicle,Boat or Bike:\n").lower()
@@ -33,7 +33,18 @@ if turning_at_igbariam == "left":
     elif transport_type == "vehicle":
         print("You will get there faster.Remind the driver to stop you at your bus stop")
     elif transport_type == "bike":
-        print("You just crossed River Oyi")
+        print("You just crossed River Oyi and approaching Community Primary School")
+        continue_from_school = input("Will you like to stop here or continue? type stop or continue:\n").lower()
+        if continue_from_school == "stop":
+            print("Game over! You cannot stop here.")
+        else:
+            print("You have reached Afor Junction.")
+            from_afor = input("Will you like to take left or right?").lower()
+            if from_afor == "right":
+                print("Approaching Cata's")
+                cata = input("Do you want to stop or continue?").lower()
+            else:
+                print("Game over! You just fell into mmiri ngbanenu")
 
 else:
     print("Game over! You are heading to Nkwelle,Awkuzu")
