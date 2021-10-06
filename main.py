@@ -23,4 +23,8 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Awkuzu Juction.")
 print("Your mission is to locate Ama Enyi and get the hidden treasures. Kindly read the readme file for instruction.")
 
-#https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload
+turning_at_igbariam = input("You just reached Awkuzu junction from Nkpor and approaching Igbariam junction.Which way do you want to take? Left or Right:")
+if turning_at_igbariam == "left":
+    pass
+else:
+    print("Game over! You are heading to Nkwelle,Awkuzu")
