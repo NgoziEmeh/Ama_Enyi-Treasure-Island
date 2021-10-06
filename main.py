@@ -23,8 +23,17 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Awkuzu Juction.")
 print("Your mission is to locate Ama Enyi and get the hidden treasures. Kindly read the readme file for instruction.")
 
-turning_at_igbariam = input("You just reached Awkuzu junction from Nkpor and approaching Igbariam junction.Which way do you want to take? Left or Right:")
+turning_at_igbariam = input("You just reached Awkuzu junction from Nkpor and approaching Igbariam junction.Which way do you want to take? Left or Right:").lower()
 if turning_at_igbariam == "left":
-    pass
+    print("Welcome to Igbariam Junction.Going straight leads you to Anambra State University campus at Igbariam but there are several villages in between.Some are walkable distances while some are far")
+    transport_type = input("How will you like to continue? Walk,Vehicle,Boat or Bike:\n").lower()
+    if transport_type == "walk":
+        print("It will take you a bit longer to get there")
+        print("You just reached River Oyi and it is already 10pm.Curfew starts by 10pm and anyone caught on the way by local vigilante, will be punished if they do not have good explanation for staying out late.")
+    elif transport_type == "vehicle":
+        print("You will get there faster.Remind the driver to stop you at your bus stop")
+    elif transport_type == "bike":
+        print("You just crossed River Oyi")
+
 else:
     print("Game over! You are heading to Nkwelle,Awkuzu")
