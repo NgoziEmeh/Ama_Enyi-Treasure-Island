@@ -46,7 +46,7 @@ if turning_at_igbariam == "left":
                 if cata == "stop":
                     cata_turn = input("Turn right or left\n").lower()
                     if cata_turn == "right":
-                        pass
+                        print("Congratulations!! You have reached Ama Enyi.There are 8 houses in Ama Enyi and the treasures are buried in just one of them.")
                     else:
                         print("Game over! You have been eaten by animal in the forest you entered")
                 else:
